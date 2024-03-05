@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="imgs">
+        <img src="img/mainlogin.jpg" alt="">
+    </div>
+    <div class="mainNote">
+        <h2>Student Login Form</h2>
+    </div>
+    <div class="registrationForm">
+        <form action="">
+            <div class="input">
+                <div class="label"><label for="studentName">Name:</label></div>
+                <input type="text" class="details" id="studentName">
+                <span id="name2" class="error"></span>
+               </div>
+               <div class="input">
+                <div class="label3"><label for="centreName">School Name:</label></div>
+                <input type="text" class="details" id="centreName">
+                <span id="centreNameError" class="error"></span>
+              </div>
+              <div class="input">
+                <div class="label"> <label for="password">Password:</label></div>
+                 <input type="password" class="details" id="password">
+                 <span id="pattern" class="error"></span>
+               </div>
+        </form>
+        <div class="btn-input">
+            <input type="submit" class="btn-main" id="approval" value="Login">
+           </div>
+    </div>
+
+</body>
+<script src="js/quizLogin.js"></script>
+</html>
