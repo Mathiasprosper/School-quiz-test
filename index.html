@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="text">
+        <h1>School Participation Form</h1>
+    </div>
+    <div  class="schoolRegistrationForm">
+        <form action="">
+            <div class="input">
+             <div class="label"><label for="name">School Name:</label></div>
+             <input type="text" class="details" id="name">
+             <span id="name2" class="error"></span>
+            </div>
+           <div class="input">
+             <div class="label2"><label for="address">School address:</label></div>
+             <input type="text" class="details" id="address">
+             <span id="location" class="error"></span>
+           </div>
+           <div class="input">
+            <div class="label3"> <label for="number">Number of students:</label></div>
+             <input type="number" class="details" id="number">
+             <span id="number2" class="error"></span>
+           </div>
+           <div class="input">
+            <div class="label"> <label for="password">Password:</label></div>
+             <input type="password" class="details" id="password">
+             <span id="pattern" class="error"></span>
+           </div>
+        </form>
+        <div class="btn-input">
+            <input type="submit" class="btn" id="approval" value="Sign-up">
+        </div>
+           <p class="next">Already have an account? <a href="login.html">login</a></p>      
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
+
