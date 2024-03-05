@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <div class="info">
+        <p>Registration closes on 12th of march 2024, register now !!!</p>
+    </div>
+    <div class="headText">
+        <h1>Welcome, <span id="name"></span></h1>
+    </div>
+    <div class="pastWinners" id="oldWinners">
+        <h3>Previous winners</h3>
+        <div class="winners">
+            <h5>Wisdom academy</h5>
+            <p>Tony stark</p>
+            <p>2011</p>
+        </div>
+        <div class="winners">
+            <h5>Faith academy</h5>
+            <p>Bruce wayne</p>
+            <p>2012</p>
+        </div>
+        <div class="winners">
+            <h5>Winter academy</h5>
+            <p>Clark Kent</p>
+            <p>2013</p>
+        </div>
+        <div class="winners">
+            <h5>Holmes academy</h5>
+            <p>Louis Lane</p>
+            <p>2014</p>
+        </div>
+      <div class="winners">
+        <h5>Information academy</h5>
+        <p>Adam strange</p>
+        <p>2015</p>
+      </div>
+      <div class="winners">
+        <h5>Christ academy</h5>
+        <p>Jane Dot</p>
+        <p>2016</p>
+      </div>
+      <div class="winners">
+        <h5>Potters Field academy</h5>
+        <p>Faith Mathias</p>
+        <p>2017</p>
+      </div>
+      <div class="winners">
+        <h5>GreenField academy</h5>
+        <p>Great Wisdom</p>
+        <p>2018</p>
+      </div>
+      <div class="winners">
+        <h5>GardenHigh academy</h5>
+        <p>Dominique Emmanuel</p>
+        <p>2019</p>
+      </div>
+      <div class="winners">
+        <h5>Winners academy</h5>
+        <p>Rall Dauglas</p>
+        <p>2020</p>
+
+      </div>
+      <div class="winners">
+        <h5>Veritas academy</h5>
+        <p>Paul Fedrick</p>
+        <p>2021</p>
+
+      </div>
+      <div class="winners">
+        <h5>Rework academy</h5>
+        <p>Payne Wisdom</p>
+        <p>2022</p>
+      </div>
+      <div class="winners">
+        <h5>Martin-K  academy</h5>
+        <p>Arthur peace</p>
+        <p>2023</p>
+      </div>
+      
+    </div>
+    <div class="mainText">
+        <h2>Student Registration Form</h2>
+    </div>
+    <div class="registrationForm">
+        <form action="">
+            <div class="input">
+                <div class="label"><label for="studentName">Name:</label></div>
+                <input type="text" class="details" id="studentName">
+                <span id="name2" class="error"></span>
+               </div>
+              <div class="input">
+                <div class="label2"><label for="class">Class:</label></div>
+                <input type="text" class="details" id="class">
+                <span id="grade" class="error"></span>
+              </div>
+              <div class="input">
+                <div class="label3"><label for="centreName">School Name:</label></div>
+                <input type="text" class="details" id="centreName">
+                <span id="centreNameError" class="error"></span>
+              </div>
+              <div class="input">
+                <div class="label"> <label for="password">Password:</label></div>
+                 <input type="password" class="details" id="password">
+                 <span id="pattern" class="error"></span>
+               </div>
+        </form>
+        <div class="btn-input">
+            <input type="submit" class="btn-main" id="approval" value="Register">
+           </div>
+           <p>Already registered? <a href="quizLogin.html">Login</a></p>
+    </div>
+</body>
+<script src="js/studentRegistration.js"></script>
+</html>
