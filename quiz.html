@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="flex">
+    <h3 id="centreName"></h3>
+    <h2 id="CandidateName"></h2>
+    <div id="countdown"></div>
+   </div>
+   
+   <h4 class="questions-words"></h4>
+
+   <div id="options"></div>
+   <input type="submit" id="submitBtn" onclick="submitQuiz()">
+   <div class="checks"><p></p>
+   </div>
+   <h3 id="me"></h3>
+   <div class="checks"><p></p>
+   </div>
+   <div id="button-container" class="button-container"></div>
+
+    <div id="openModal"></div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Congratulations!!!</h1>
+            <p>You have won the Annual Smart-brains quiz test. All your diligent work and commitment are paid off with your win today, it is genuine individuals who recollect you by your name, however the win today recounts the tale of your unyielding boldness. Be the same always and add numerous quills of achievement to your crown.</p>
+        </div>
+    </div>
+
+</body>
+
+<style>
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./img/mainPage.png')center/cover no-repeat fixed;
+    }
+</style>
+<script src="js/quiz.js"></script>
+</html>
